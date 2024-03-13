@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harmonia Sonora</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+      color: #333;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header Styles */
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #FF5733;
+      margin: 0;
+    }
+
+    /* Main Content Styles */
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    /* Song Styles */
+    .song {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .song img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .song-info h2 {
+      margin: 0;
+      font-size: 20px;
+      color: #FF5733;
+    }
+
+    .song-info p {
+      margin: 5px 0;
+      font-size: 16px;
+      color: #666;
+    }
+
+    /* Audio Styles */
+    audio {
+      width: 100%;
+      margin-top: 15px;
+    }
+
+    /* Footer Styles */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <!-- Container -->
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>Harmonia Sonora</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Song 1 -->
+      <div class="song">
+        <img src="pc1.jpeg" alt="Poesia acústica 1">
+        <div class="song-info">
+          <h2>Poesia acústica #1: Descompasso do Compasso</h2>
+          <p>Artistas: Juyè, Choice, Jean Tassy e Salve Malak</p>
+          <p>Álbum: Poesia acústica</p>
+          <audio controls>
+            <source src="poesiaacustica1.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+          </audio>
+        </div>
+      </div>
+
+      <!-- Song 2 -->
+      <div class="song">
+        <img src="pc2.jpeg" alt="Poesia acústica 2">
+        <div class="song-info">
+          <h2>Poesia acústica #2: Sobre Nós</h2>
+          <p>Artistas: Delacruz, Maria, Ducon, Luiz Lins, Diomedes Chinaski, BK, Kayuá e Salve Malak</p>
+          <p>Álbum: Poesia acústica</p>
+          <audio controls>
+            <source src="poesiaacustica2.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+          </audio>
+        </div>
+      </div>
+
+      <!-- Song 3 -->
+      <div class="song">
+        <img src="pc3.jpeg" alt="Poesia acústica 3">
+        <div class="song-info">
+          <h2>Poesia acústica #3: Capricorniana</h2>
+          <p>Artistas: Sant, Tiago Mac, Lord ADL, Maria, Choice, Salve Malak</p>
+          <p>Álbum: Poesia acústica</p>
+          <audio controls>
+            <source src="poesiaacustica3.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+          </audio>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Harmonia Sonora</p>
+    </footer>
+  </div>
+</body>
+</html>
